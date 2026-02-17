@@ -57,3 +57,10 @@ hours = int(input("Enter hours: "))
 #     print("qwerty")
 # else:
 #     print("Ircorrect hours")
+
+#v1
+if hours >= 12:
+     print("PM")
+     print("qwerty")
+else: #else - крайний случай и никогда не пишем условий
+     print("AM")
